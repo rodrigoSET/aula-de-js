@@ -130,22 +130,4 @@ function somaArray(array) {
   array.forEach((array) => (soma += array));
   return soma;
 }
-
 console.log(somaArray([1, 2, 3, 4]));
-
-function somaDespesas(itens) {
-  let total = 0;
-
-  for (let item of itens) total += item.preco;
-}
-
-console.log(
-  somaDespesas({
-    nome: "carro",
-    preco: "20000",
-    nome: "canoa",
-    preco: 1000,
-    nome: "TV",
-    preco: 650,
-  })
-);
