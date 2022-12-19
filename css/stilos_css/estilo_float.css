@@ -1,0 +1,12 @@
+.container {
+  border: 2px double black;
+  overflow: auto;
+}
+
+.container img {
+  margin-left: 0px;
+  float: left;
+}
+.container p {
+  margin-left: 10px;
+}

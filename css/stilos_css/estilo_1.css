@@ -1,7 +1,117 @@
-body {
-  background-color: yellow;
-}
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kanit:ital,wght@1,800&display=swap");
 h1 {
+  color: rgb(226, 226, 226);
+  border: 1px solid black;
+  border-radius: 50px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  padding: 25px 0px 25px 0px;
+  font-family: "Kanit", sans-serif;
+  width: 75%;
+  margin-left: 150px;
+}
+body {
+  background-color: gray;
+}
+p {
+  display: inline;
+  text-align: justify;
+  text-transform: uppercase;
+  text-indent: 35px;
+  letter-spacing: 0px;
+  line-height: 1.8;
+  word-spacing: 10px;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+.texto_decorado {
+  text-decoration: line-through;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+}
+.botao {
+  display: inline-block;
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 40%;
+  background: green;
+  color: white;
+  padding: 30px 50px 30px 50px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+.botao:hover {
+  background: blue;
+}
+.teste {
+  max-width: 600px;
+  height: 150px;
+}
+a.botao1 {
+  color: aliceblue;
+  background: rgb(109, 0, 182);
+  padding: 10px;
+  text-decoration: none;
+  border: solid 3px black;
+  border-radius: 50px;
+}
+a.botao1:hover {
+  background: rgb(109, 0, 182);
+  padding: 8px;
+  border: solid 6px rgb(255, 0, 0);
+  border-radius: 50px;
+}
+
+a.botao2 {
+  border: 5px double blue;
   color: blue;
-  font-size: 88px;
+  padding: 2px;
+  text-decoration: none;
+}
+
+a.botao2:hover {
+  text-decoration: underline;
+  padding: 5px;
+  background: blue;
+  color: white;
+}
+
+a.botao3 {
+  color: black;
+  text-decoration: none;
+}
+
+a.botao3:hover {
+  border-bottom: 2px double red;
+}
+
+a.botao4 {
+  text-decoration: none;
+  color: blue;
+  font-size: 18px;
+}
+
+a.botao4:hover {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+a.botao5 {
+  cursor: zoom-in;
+}
+
+#imagem_principal {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background-image: url(../../imagens/pexels-montanha.jpg);
+  background-size: cover;
+}
+
+#texto_img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  text-align: center;
 }
