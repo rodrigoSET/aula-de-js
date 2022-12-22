@@ -11,7 +11,7 @@
       }
     </style>
   </head>
-  <body on onLoad="alert('carregou')">
+  <body>
     <h1>aprendendo js com html</h1>
     <button ondblclick="dblClique()">clique aqui</button><br /><br />
     <div
@@ -27,7 +27,11 @@
       style="padding: 80px; font-size: 40px"
       type="text"
       placeholder="digite alguma coisa aqui"
-    />
+    /><br /><br />
+    <h2>cronometro</h2>
+    <h2 id="tempo">10</h2>
+    <button onclick="ativarContagem()" id="start">ativar contagem</button>
+    <button onclick="pararContagem()" id="stop">parar contagem</button>
     <script src="scripts/script.js"></script>
   </body>
 </html>
