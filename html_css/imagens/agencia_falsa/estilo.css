@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Lobster&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  height: 86px;
+  background: #37c6ff;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  color: #09093a;
+  flex: 20%;
+  text-align: left;
+  font-family: "Lobster", cursive;
+  font-size: 45px;
+  margin-left: 10%;
+}
+
+.menu {
+  text-align: right;
+  flex: 70%;
+  padding: 25px;
+}
+
+.menu a {
+  color: rgb(9, 9, 58);
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.menu a:hover {
+  color: #929292;
+  border-top: 4px solid black;
+  border-radius: 4px;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+#botao {
+  background: rgb(9, 9, 58);
+  color: white;
+  border-radius: 7px;
+  margin-right: 10%;
+}
+
+#botao:hover {
+  justify-content: center;
+  align-items: center;
+  border: none;
+  box-shadow: 1px 1px 3px white;
+  background: gray;
+  padding: 9px;
+  margin-left: 2px;
+}
+
+.header {
+  padding-top: 130px;
+  display: flex;
+  flex-flow: row wrap;
+  background: white;
+}
+
+.headline {
+  margin-left: 10%;
+  flex: 40%;
+}
+
+.headline h2 {
+  font-weight: 800;
+  font-size: 20px;
+  color: rgb(9, 9, 58);
+  padding: 0;
+  margin: 0;
+}
+
+.headline p {
+  color: gray;
+  text-align: left;
+}
+
+.contact_button {
+  display: inline-block;
+  color: rgb(9, 9, 58);
+  text-decoration: none;
+  background: rgb(219, 52, 80);
+  border-radius: 2px;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.contact_button:hover {
+  margin: 3px;
+  padding: 17px;
+  color: #db3450;
+  background: rgb(9, 9, 58);
+}
+
+.img_headline {
+  margin-right: 10%;
+  flex: 40%;
+  text-align: center;
+}
+
+section {
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  padding: 5%;
+}
+
+section h2 {
+  width: 100%;
+  font-size: 50px;
+  margin: 0;
+  font-family: "Lobster", cursive;
+  font-weight: bold;
+}
+
+.servicos {
+  display: inline-block;
+  margin-top: 5%;
+}
+
+.card {
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  margin: 1%;
+  border: 1px solid #db3450;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card:hover {
+  background: #db3450;
+  color: white;
+  padding: 60px;
+  padding-top: 95px;
+  padding-bottom: 20px;
+}
+
+.card:hover img {
+  display: none;
+}
+
+.card:hover .card_text {
+  display: none;
+}
+
+.texto_oculto {
+  display: none;
+}
+
+.card:hover .texto_oculto {
+  display: inline-block;
+}
+
+footer {
+  margin-top: 100px;
+  height: 300px;
+  background-image: linear-gradient(180deg, #37c6ff, #09093a, black);
+  border-top: #db3450 5px double;
+  text-align: center;
+}
+
+.texto_rodape {
+  padding-top: 75px;
+  color: #929292;
+}
+
+.texto_rodape h1 {
+  font-family: "Lobster", cursive;
+  font-weight: 300;
+}
+
+.whats {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}

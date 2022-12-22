@@ -1,0 +1,47 @@
+ul {
+  background-color: black;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropbtn,
+.dropdown:hover {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 150px;
+}
+
+.dropdown-content a {
+  color: black;
+  display: block;
+  text-align: left;
+  border: 1px solid rgb(184, 168, 255);
+}
+
+.dropdown-content a:hover {
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
