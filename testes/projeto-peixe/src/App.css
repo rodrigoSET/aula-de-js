@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 649px;
+  border: double red 2px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 10%;
+  border: solid blue 4px;
+  border-radius: 20px;
+  width: 80%;
+  height: 500px;
+}
+
+.peixinho {
+  position: absolute;
+  width: 20%;
+  cursor: default;
+  user-select: none;
+  transition: 0.2s ease;
+}
